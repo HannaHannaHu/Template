@@ -1,0 +1,42 @@
+body{
+	background-color: lightyellow;
+
+	}
+h1{
+	text-align: center;
+	}
+h2{
+	color: purple;
+	font-size: 30px;
+	font-family: Elegant;
+	}
+img{
+	float: right;
+	margin: 10px 10px 10px 10px;
+}
+span{
+	color: blue;
+	border:1.5px solid black;
+	font-weight: bolder;
+	}
+table{
+  	table-layout: fixed;
+  	width: 100%; 
+  	margin-left: auto;
+  	margin-right: auto; 
+	}
+p{
+	background-color: #C3F6FF ;
+	padding‐right:30px;
+	padding‐left:30px;
+	padding‐bottom:20px;
+	font-size: 85%;
+}
+
+.extra span{
+	coloe: inherit;
+	}
+.outline{
+	color:lightyellow;
+	font-size: 20px;
+}
