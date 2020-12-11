@@ -11,6 +11,20 @@
         a:active {
             color: #FDC071;
         } 
+        .navbar {
+          display: flex;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+          background-color: #ddd;
+          color: black;
+        }
     </style>
     <title>Pop HTML5 Template</title>
 <!--
@@ -41,10 +55,11 @@ http://www.tooplate.com/view/2097-pop
                         <div class="tm-site-header">
                             <h1 class="mb-4" style="color: #F7A945">Hanna's Homepage</h1>
                             <img src="img/underline.png" class="img-fluid mb-4">
-                            <p><a href = "intro.html">Hanna's Workshop</a><p>
-                            <p><a href = "about_me.html">About Me</a><p>
-                            <p><a href = "nations.html">Travel Around the World</a><p>
-                            <p>New HTML Template with pop up pages and use this layout for your website</p>        
+                            <div class="navbar">
+                              <a href="intro.html">Hanna's Workshop</a>
+                              <a href = "about_me.html">About Me</a>
+                              <a href = "nations.html">Travel Around the World</a>
+                            </div>                        
                         </div>                        
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -195,9 +210,6 @@ http://www.tooplate.com/view/2097-pop
                 </div>                
             </div>
             <footer>
-                <p class="small tm-copyright-text">Copyright &copy; <span class="tm-current-year">2018</span> Your Company. 
-                
-                Layout: Tooplate</p>
             </footer>
         </div> <!-- .tm-main-content -->  
     </div>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!--<input type="button" value="1st button" onClick="alert('wahaha!')">
+	<input type="button" value="2nd button" onClick="alert('muhaha')">
+	<input type="button" value="blue" onClick="document.body.style.backgroundColor='blue'">
+	<input type="button" value="yellow" onClick="document.body.style.backgroundColor='yellow'">-->
+	<!--<script>
+		var a=10 
+		var b=20 
+		var c=a+b 
+		var d="a"+"b"
+		document.write(c) 
+		document.write("<p>") 
+		document.write(d)
+		var name
+		name = window.prompt("Please enter your name")
+		document.writeln("<p>Good Evening, "+name+" ,welcome to JavaScript programming!</p>" )
+		var int1, int2;
+		int1 = window.prompt("Enter first integer");
+		int2 = window.prompt("Enter second integer");
+		var sum = parseInt(int1)+parseInt(int2);
+		document.writeln("<p>The sum is "+sum+"</p>" )
+	</script> -->
+	<script>
+		var num=Math.floor((Math.random()*10+1));
+		var int=window.prompt("Take a guess of a number from 1 to 10.");
+		while (num!=parseInt(int)){
+			int=window.prompt("Try again.\nTake a guess of a number from 1 to 10.")
+		}
+		document.writeln("<p>Congratulations!!!</p>" )
+		
+	</script>
+</body>
+</html>

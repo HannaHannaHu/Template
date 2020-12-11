@@ -27,14 +27,16 @@ table{
 	}
 p{
 	background-color: #C3F6FF ;
+	font-size: 85%;
+}
+div{
 	padding‐right:30px;
 	padding‐left:30px;
 	padding‐bottom:20px;
-	font-size: 85%;
 }
 
 .extra span{
-	coloe: inherit;
+	color: inherit;
 	}
 .outline{
 	color:lightyellow;
